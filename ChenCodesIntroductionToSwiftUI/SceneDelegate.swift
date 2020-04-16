@@ -20,11 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView(bridge: Bridge(imageName: "golden_gate_bridge",
-                                                     name: "Golden Gate Bridge",
-                                                     city: "San Francisco",
-                                                     state: "California",
-                                                     lengthInFeet: 8981))
+        let contentView = BridgeListView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

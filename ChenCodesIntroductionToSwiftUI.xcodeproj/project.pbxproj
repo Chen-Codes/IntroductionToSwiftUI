@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		BAAE55E22447F750001E6697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55E12447F750001E6697 /* AppDelegate.swift */; };
 		BAAE55E42447F750001E6697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55E32447F750001E6697 /* SceneDelegate.swift */; };
-		BAAE55E62447F750001E6697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55E52447F750001E6697 /* ContentView.swift */; };
 		BAAE55E82447F750001E6697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAE55E72447F750001E6697 /* Assets.xcassets */; };
 		BAAE55EB2447F750001E6697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAE55EA2447F750001E6697 /* Preview Assets.xcassets */; };
 		BAAE55EE2447F750001E6697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAE55EC2447F750001E6697 /* LaunchScreen.storyboard */; };
 		BAAE55F62447F7A1001E6697 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55F52447F7A1001E6697 /* Bridge.swift */; };
+		BAAE55F82447FBC3001E6697 /* BridgeDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55F72447FBC3001E6697 /* BridgeDescriptionView.swift */; };
+		BAAE55FA2447FCB4001E6697 /* BridgeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55F92447FCB4001E6697 /* BridgeListView.swift */; };
+		BAAE55FC244828F2001E6697 /* BridgeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE55FB244828F2001E6697 /* BridgeRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BAAE55DE2447F750001E6697 /* ChenCodesIntroductionToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChenCodesIntroductionToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAE55E12447F750001E6697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAE55E32447F750001E6697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BAAE55E52447F750001E6697 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAAE55E72447F750001E6697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAE55EA2447F750001E6697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAAE55ED2447F750001E6697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAE55EF2447F750001E6697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAAE55F52447F7A1001E6697 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		BAAE55F72447FBC3001E6697 /* BridgeDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDescriptionView.swift; sourceTree = "<group>"; };
+		BAAE55F92447FCB4001E6697 /* BridgeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeListView.swift; sourceTree = "<group>"; };
+		BAAE55FB244828F2001E6697 /* BridgeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				BAAE55E12447F750001E6697 /* AppDelegate.swift */,
 				BAAE55E32447F750001E6697 /* SceneDelegate.swift */,
-				BAAE55E52447F750001E6697 /* ContentView.swift */,
+				BAAE55F72447FBC3001E6697 /* BridgeDescriptionView.swift */,
+				BAAE55FB244828F2001E6697 /* BridgeRowView.swift */,
+				BAAE55F92447FCB4001E6697 /* BridgeListView.swift */,
 				BAAE55F52447F7A1001E6697 /* Bridge.swift */,
 				BAAE55E72447F750001E6697 /* Assets.xcassets */,
 				BAAE55EC2447F750001E6697 /* LaunchScreen.storyboard */,
@@ -149,10 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAAE55FA2447FCB4001E6697 /* BridgeListView.swift in Sources */,
 				BAAE55F62447F7A1001E6697 /* Bridge.swift in Sources */,
+				BAAE55FC244828F2001E6697 /* BridgeRowView.swift in Sources */,
 				BAAE55E22447F750001E6697 /* AppDelegate.swift in Sources */,
+				BAAE55F82447FBC3001E6697 /* BridgeDescriptionView.swift in Sources */,
 				BAAE55E42447F750001E6697 /* SceneDelegate.swift in Sources */,
-				BAAE55E62447F750001E6697 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

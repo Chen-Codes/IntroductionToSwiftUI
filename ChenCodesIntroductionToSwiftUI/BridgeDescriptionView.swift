@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BridgeDescriptionView.swift
 //  ChenCodesIntroductionToSwiftUI
 //
 //  Created by Chen Codes on 4/15/20.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct BridgeDescriptionView: View {
     let bridge: Bridge
     var body: some View {
         VStack {
@@ -35,11 +35,12 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BridgeDescriptionView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(bridge: Bridge(imageName: "golden_gate_bridge",
-                                   name: "Golden Gate Bridge",
-                                   city: "San Francisco",
-                                   state: "California", lengthInFeet: 8981))
+        BridgeDescriptionView(bridge: Bridge(imageName: "golden_gate_bridge",
+                                             name: "Golden Gate Bridge",
+                                             city: "San Francisco",
+                                             state: "California",
+                                             lengthInFeet: 8981))
     }
 }
